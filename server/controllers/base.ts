@@ -7,7 +7,8 @@ abstract class BaseCtrl {
     this.model.find({}, (err, docs) => {
       if (err) { return console.error(err); }
       res.status(200).json(docs);
-    });
+    })
+    .limit(50);
   }
 
   // Count all

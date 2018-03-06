@@ -51,6 +51,7 @@ export function tokenGetter() {
     AuthService,
     AuthGuardLogin,
     AuthGuardAdmin,
+    BookService,
     CatService,
     UserService
   ],
